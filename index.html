@@ -51,7 +51,23 @@
                 <h1><span class="text1" style="font-size:70px"><span></span></span><span class="text2" style="font-size:65px"><span></span></span><span class="text3" style="font-size:60px"><span></span></span>
                 </h1>
                 <div class="banner-img-wpr">
-                    <div class="banner-main-img-wpr" data-parallax="0.1"><img src="images/mm.png" alt="" class="banner-main-img"></div>
+                    <style>
+                        .tt{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        @media (max-width: 479px) {
+                        .tt{
+                            display: flex;
+                            flex-direction: column;
+                        } 
+                        }
+                    </style>
+                    <div class="tt">
+                        <div class="banner-main-img-wpr" data-parallax="0.1"><img src="images/mm.png" alt="" class="banner-main-img"></div>
+                        <div class="banner-main-img-wpr" data-parallax="0.1"><img src="images/ban.jpg" alt="" class="banner-main-img" style="margin-top: 20%;"></div>
+                    </div>
                     <div class="star-icon1-wpr" data-parallax="1"><img src="images/star-icon.svg" alt="" class="star-icon1"></div>
                     <div class="star-icon2-wpr" data-parallax="-2"><img src="images/star-icon2.svg" alt="" class="star-icon2"></div>
                     <div class="banner-eye-icon-wpr" data-parallax="-0.4"><img src="images/eye-icon.svg" alt="" class="banner-eye-icon"></div>
